@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+background-image: url(/img/bgcontact1.jpg);
+background-size: cover;
+box-sizing: border-box;
+}
+
+/* navbar */
+#navbar {
+    display: flex;
+    background-color: rgb(151, 180, 72);
+
+}
+
+#navbar img {
+    height: 75px;
+    width: 75px;
+
+}
+
+#navbar ul {
+    display: flex;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: 15px 15px;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Baloo Thambi 2', cursive;
+    
+
+}
+/* form  */
+form{
+    display: block;
+}
+form input{
+    display: block;
+    width: 70%;
+    margin: 15px auto;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 15px 7px;
+    border-radius: 10px;
+    outline: none;
+    border-style: none;
+
+}
+#btn{
+    display: block;
+    margin: 8px auto;
+    padding: 12px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+#btn:hover{
+    cursor: pointer;
+    background-color: rgb(114, 129, 46);
+}
+
+
+/* footer  */
+footer{
+    margin-top: 150px;
+    background-color: rgb(49, 53, 29);
+}
+footer h2{
+    text-align: center;
+    padding: 8px;
+    font-family: 'Baloo Thambi 2', cursive;
+    font-size: 26px;
+    color: rgb(62, 170, 170);
+
+}
+

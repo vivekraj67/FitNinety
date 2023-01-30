@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactstyle.css">
+    <title>Fit-Ninety</title>
+</head>
+
+<body>
+    <!-- navbar  -->
+    <nav id="navbar">
+        <a href="/"><img src="/img/logo.jpg" alt="logo"></a>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about" id="about">About</a></li>
+            <li><a href="/services" id="services">Services</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+        </ul>
+    </nav>
+    <!-- contact form  -->
+    <form action="/contact" method="post" id="myform" role="form">
+        <input type="text" name="name" id="name" placeholder="enter your name">
+        <input type="email" name="email" id="email" placeholder="enter your email">
+        <input type="text" name="phonenumber" id="phonenumber" placeholder="enter your mobile number">
+        <input type="text" name="address" id="address" placeholder="enter your address">
+        <input type="text" name="concern" id="concern" placeholder="enter your concern">
+        <input type="button" id="btn" onclick="myfunction()" value="submit">
+    </form>
+
+
+    <!-- footer section  -->
+    <footer>
+        <h2>Copyright © 2023 Fit-Ninety. All rights reserved.</h2>
+    </footer>
+
+    <script>
+        function myFunction() {
+          document.getElementById("myForm").submit();
+        }
+        </script>
+</body>
+
+</html>
